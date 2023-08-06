@@ -1,17 +1,17 @@
-\ProvidesPackage{sleek-title}[2022/09/13 v1.2.0 Sleek Title]
+\ProvidesPackage{sleek-title}[2022/07/01 v1.1.2 Sleek Title]
 
-%%%%%%%%%%%%
-% Settings %
-%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+% Requirements %
+%%%%%%%%%%%%%%%%
 
 \RequirePackage{geometry}
 \RequirePackage{graphicx}
 \RequirePackage[framemethod=TikZ]{mdframed}
 \RequirePackage[nomessages]{fp}
 
-%%%%%%%%%%%
-% Heights %
-%%%%%%%%%%%
+%%%%%%%%%%%%
+% Settings %
+%%%%%%%%%%%%
 
 \newlength\topheight
 \newlength\logoheight
@@ -21,7 +21,7 @@
 \newcommand*{\calculateheights}{
     \countlines{\bfseries\huge\@title}
     \FPeval{\topratio}{0.3 - 0.01 * (\numlines - 1)}
-    \FPeval{\skipratio}{\topratio - 0.15}
+    \FPeval{\skipratio}{\topratio - 0.25}
     \setlength{\logoheight}{0.15\textheight}
     \setlength{\topheight}{\topratio\textheight}
     \setlength{\titleskipabove}{\skipratio\textheight}
@@ -72,12 +72,12 @@
 \newif\ifSupervisor
 \newif\ifContext
 
-\newcommand*{\logo}[1]{\gdef\@logo{#1}\Logotrue}
+\newcommand*{\logo}[2]{\gdef\@entlogo{#1}\gdef\@unilogo{#2}\Logotrue}
 \newcommand*{\institute}[1]{\gdef\@institute{#1}\Institutetrue}
 \newcommand*{\faculty}[1]{\gdef\@faculty{#1}\Facultytrue}
 \newcommand*{\department}[1]{\gdef\@department{#1}\Departmenttrue}
 \newcommand*{\subtitle}[1]{\gdef\@subtitle{#1}\Subtitletrue}
-\newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}\Supervisortrue}
+\newcommand*{\supervisor}[2]{\gdef\@supervisorA{#1}\gdef\@supervisorB{#2}\Supervisortrue}
 \newcommand*{\context}[1]{\gdef\@context{#1}\Contexttrue}
 
 % Title page
@@ -90,7 +90,7 @@
         \begin{minipage}[t][\topheight]{\textwidth}
             \begin{center}
                 \ifLogo
-                    \includegraphics[height=\logoheight]{\@logo}
+                    \includegraphics[height=\logoheight]{\@unilogo}
                 \fi
                 \vfill
                 {
@@ -128,14 +128,18 @@
             \ifSubtitle
                 {\Large\@subtitle\clearpar}
             \fi
+            \ifLogo
+                \includegraphics[height=\logoheight]{\@entlogo}
+            \fi
             \vfill
             \ifSupervisor
                 \begin{minipage}[t]{0.49\textwidth}
-                    {\large\@author\clearpar}
+                    {\large\@supervisorA\clearpar}
+                    {\large\@supervisorB\clearpar}
                 \end{minipage}
                 \begin{minipage}[t]{0.49\textwidth}
                     \begin{flushright}
-                        {\large\@supervisor\clearpar}
+                        {\large\@author\clearpar}
                     \end{flushright}
                 \end{minipage}
             \else
@@ -145,7 +149,6 @@
             \ifContext
                 {\large\@context\clearpar}
             \fi
-            {\large\@date\clearpar}
         \end{center}
     \end{titlepage}
     \restoregeometry
