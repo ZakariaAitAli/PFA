@@ -1,17 +1,81 @@
-# Sleek Template
+# Mémoire de Fin d'Année - Computer Science Project
 
-Sleek Template is a minimal collection of [LaTeX](https://www.latex-project.org/) packages and settings that ease the writing of beautiful documents. While originally meant for theses, it is perfectly suitable for project reports, articles, syntheses, etc. – with a few adjustments, like margins.
+## Introduction
 
-It is composed of four separate packages – `sleek`, `sleek-title`, `sleek-theorems` and `sleek-listings` – each of which can be used individually.
+This repository contains the final year thesis for the Computer Science project. 
+The project involves the study and development of a Web 3.0 application with a Hybrid Cloud/Blockchain backend.
 
-For more information about the packages, settings, environments, commands, etc., please refer to the documentation file [`main.pdf`](main.pdf), which also acts as showcase document.
+**Author:** M. Zakaria AIT ALI
 
-## Overleaf :leaves:
+**Supervised by:**
+- Dr. Mohamed TOUB (FeverTokens Supervisor)
+- Dr. Ahmed BENTAJER (ENSATE Supervisor)
 
-Sleek Template is [Overleaf](https://www.overleaf.com/) ready!
+**Academic Year:** 2022-2023
 
-1. Download the repository [archive](https://github.com/francois-rozet/sleek-template/archive/overleaf.zip)
-2. On your Overleaf project page, click **New Project** and choose **Upload Project**
-3. Drag or select the downloaded archive
-4. Rename the project
-5. Enjoy :ok_hand:
+## Dedication
+
+[Summary of the chapter]
+
+...
+
+## Acknowledgments
+
+[Summary of the chapter]
+
+...
+
+## Abstract
+
+[Summary of the chapter]
+
+...
+
+## Table of Contents
+
+- Chapter 1: Project Context
+- Chapter 2: Requirements Specification
+- Chapter 3: Design
+- Chapter 4: Implementation
+- Conclusion
+- References
+- Appendices
+
+## Chapter 1: Project Context
+
+[Summary of the chapter]
+
+...
+
+## Chapter 2: Requirements Specification
+
+[Summary of the chapter]
+
+...
+
+## Chapter 3: Design
+
+[Summary of the chapter]
+
+...
+
+## Chapter 4: Implementation
+
+[Summary of the chapter]
+
+...
+
+## Conclusion
+
+In conclusion, this thesis...
+
+## References
+
+Bibliography and web references used in this thesis.
+
+## Appendices
+
+Additional information and materials related to the project.
+
+---
+**Note:** This is a simplified representation of the content.
