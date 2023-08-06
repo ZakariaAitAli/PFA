@@ -1,0 +1,103 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{overleaf}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={Overleaf},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learn \LaTeX{} in 30 minutes}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+      \endverb
+    \endentry
+    \entry{pakin2020comprehensive}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b835af205adc9f4cf7b438d1116ffb60}{%
+           family={Pakin},
+           familyi={P\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b835af205adc9f4cf7b438d1116ffb60}
+      \strng{fullhash}{b835af205adc9f4cf7b438d1116ffb60}
+      \strng{bibnamehash}{b835af205adc9f4cf7b438d1116ffb60}
+      \strng{authorbibnamehash}{b835af205adc9f4cf7b438d1116ffb60}
+      \strng{authornamehash}{b835af205adc9f4cf7b438d1116ffb60}
+      \strng{authorfullhash}{b835af205adc9f4cf7b438d1116ffb60}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The comprehensive \LaTeX{} symbol list}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
+      \endverb
+      \verb{url}
+      \verb http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
+      \endverb
+    \endentry
+    \entry{wright2022siunitx}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=93c71fed62527d4c8c6ae13ee771fcdd}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{93c71fed62527d4c8c6ae13ee771fcdd}
+      \strng{fullhash}{93c71fed62527d4c8c6ae13ee771fcdd}
+      \strng{bibnamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
+      \strng{authorbibnamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
+      \strng{authornamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
+      \strng{authorfullhash}{93c71fed62527d4c8c6ae13ee771fcdd}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{\texttt{siunitx} -- A comprehensive (SI) units package}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://ctan.org/pkg/siunitx
+      \endverb
+      \verb{url}
+      \verb https://ctan.org/pkg/siunitx
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
